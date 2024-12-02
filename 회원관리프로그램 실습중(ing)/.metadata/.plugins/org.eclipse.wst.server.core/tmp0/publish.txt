@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Mon Dec 02 12:43:54 KST 2024
+org.eclipse.jst.jee.server\:member_framework=C\:\\apache-tomcat-9\\wtpwebapps\\member_framework
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\04-09\\.m2\\repository\\org\\springframework\\spring-web\\5.0.8.RELEASE\\spring-web-5.0.8.RELEASE.jar=C\:\\apache-tomcat-9\\wtpwebapps\\member_framework\\WEB-INF\\lib\\spring-web-5.0.8.RELEASE.jar

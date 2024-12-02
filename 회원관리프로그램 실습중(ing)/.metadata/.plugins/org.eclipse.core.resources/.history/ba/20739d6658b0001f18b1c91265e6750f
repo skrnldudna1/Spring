@@ -1,0 +1,20 @@
+package com.company.service;
+
+import org.springframework.stereotype.Service;
+
+import com.company.dto.MemberDTO;
+
+import lombok.RequiredArgsConstructor;
+
+@Service
+@RequiredArgsConstructor
+public class MemberService {
+	
+	private final MemberService memberService;
+
+	/*
+	 * public int save(MemberDTO memberDTO) { System.out.println("memberDTO =" +
+	 * memberDTO); return 0; }
+	 */
+
+}
