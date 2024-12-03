@@ -3,7 +3,6 @@
     <fullyQualifiedTypeName name="java.lang.Readable"/>
     <fullyQualifiedTypeName name="com.company.sample.Restaurant"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
-    <fullyQualifiedTypeName name="lombok.ToString"/>
     <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
     <fullyQualifiedTypeName name="com.company.sample.SampleHotelTests"/>
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
@@ -49,4 +48,7 @@
     <fullyQualifiedTypeName name="com.company.service.MemberService"/>
     <fullyQualifiedTypeName name="lombok.RequiredArgsConstructor"/>
     <fullyQualifiedTypeName name="com.company.repository.MemberRepository"/>
+    <fullyQualifiedTypeName name="lombok.ToString"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSession"/>
+    <fullyQualifiedTypeName name="org.mybatis.spring.SqlSessionTemplate"/>
 </qualifiedTypeNameHistroy>
