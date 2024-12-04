@@ -1,0 +1,10 @@
+package com.company.mapper.copy;
+
+import org.apache.ibatis.annotations.Select;
+
+public interface TimeMapper {
+	
+	@Select("SELECT susdate FROM dual")
+	public String getTime();
+	
+}

@@ -1,0 +1,5 @@
+package com.company.mapper.copy;
+
+public interface TimeMapper {
+
+}
