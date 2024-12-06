@@ -11,8 +11,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import com.company.dto.BoardDTO;
+import com.company.dto.CommentDTO;
 import com.company.dto.PageDTO;
 import com.company.service.BoardService;
+import com.company.service.CommentService;
 
 import lombok.RequiredArgsConstructor;
 import oracle.jdbc.proxy.annotation.Post;
@@ -25,6 +27,7 @@ public class BoardController {
     
     // BoardService 인스턴스를 주입받습니다. 서비스 레이어에서 비즈니스 로직 처리
     private final BoardService boardService;
+    private final CommentService commentService;
     
     // 게시판 글 작성 화면을 요청하는 메서드
     @GetMapping("/save")
@@ -65,6 +68,8 @@ public class BoardController {
         BoardDTO boardDTO = boardService.findById(id);
         model.addAttribute("board", boardDTO);
         model.addAttribute("page", page);
+        List<CommentDTO> commentDTOList = commentService.findAll(id);
+        model.addAttribute("commentList", commentDTOList);
         return "detail";
     }
 

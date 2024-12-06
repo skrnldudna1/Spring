@@ -6,9 +6,42 @@
 <head>
 <meta charset="UTF-8">
 <title>paging</title>
+    <style>
+        @font-face {
+             font-family: 'S-CoreDream-3Light';
+             src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+             font-weight: normal;
+             font-style: normal;
+        }
+
+      @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+
+      .fade-in {
+        animation: fadeIn 2s ease-in;
+      }
+      
+       
+        table {
+            margin-left: 50px; /* 테이블을 오른쪽으로 150px 이동 */
+            width: 40%;
+            border-collapse: collapse;
+            border: 1px solid #ddd;
+            margin-bottom: 30px;
+        }
+        
+         th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
 </head>
 <body>
 <div>
+     <h1 class="fade-in" style="font-family: 'S-CoreDream-3Light'; margin-left: 150px;"> 게시판 </h1><br><br>
     <table>
         <tr>
             <th>id</th>
